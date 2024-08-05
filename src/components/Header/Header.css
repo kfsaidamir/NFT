@@ -1,0 +1,30 @@
+input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #b7b7b7;
+}
+
+.span {
+    font-size: 15px;
+    font-weight: 400;
+    color: #6B6B6B;
+    transition: .5s ease;
+}
+
+.span:hover {
+    color: #000000;
+    font-size: 18px;
+    border-bottom: 1px solid #000000;
+}
+
+.scrolled {
+  background-color: rgba(255, 255, 255, 0.874); /* Полупрозрачный фон */
+  backdrop-filter: blur(5px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+.scrolled .span,
+.scrolled .search-icon, /* Добавьте класс для иконки поиска, если нужно */
+.scrolled .logo {
+  color: #000000; /* Укажите цвет текста */
+}

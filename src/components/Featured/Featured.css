@@ -1,0 +1,11 @@
+
+.background::before {
+    left: -100px;
+    background: radial-gradient(circle, #FF7A91 0%, #FFC19E 50%, #D9D9D9 100%);
+  }
+  
+  .background::after {
+    right: -100px;
+    background: radial-gradient(circle, #FF7A91 0%, #FFC19E 50%, #D9D9D9 100%);
+  }
+  
