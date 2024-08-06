@@ -1,0 +1,12 @@
+.grid-container {
+  position: relative;
+}
+
+.card {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.card.fade-in {
+  opacity: 1;
+}
